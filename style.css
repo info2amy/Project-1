@@ -86,3 +86,24 @@ header {
 footer {
   padding: 50px;
 }
+
+@media screen and (max-width: 576px) {
+  .small-size {
+  }
+
+  .small-hide {
+    display: none;
+  }
+
+  .small-appear {
+    background-image: url("images/title-1.png");
+    background-image: url("images/title-2.png");
+    background-image: url("images/title-3.png");
+    background-image: url("images/insta-1.png");
+    background-image: url("images/insta-2.png");
+    background-image: url("images/insta-3.png");
+    background-image: url("images/insta-4.png");
+    background-image: url("images/insta-5.png");
+    width: 100%;
+  }
+}
